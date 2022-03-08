@@ -1,0 +1,18 @@
+{
+  "name": "twilio-csv-to-sms",
+  "version": "1.0.0",
+  "description": "send sms messages from a csv list",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "gspncr",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "twilio": "^3.75.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
